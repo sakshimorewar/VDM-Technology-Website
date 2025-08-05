@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VDM Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="VDM logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+
+  <div class="main-section">
+      <div class="bg">
+        <img src="VDM Technologies home bg.jpg" alt="Offuce Tech" class="bgimg"/>
+        <img src="5aUBJ5AgjGdQnMs3RB9Kn8-1200-80.jpg" alt="Home Decor" class="bgimg"/>
+        <img src="Smart-wall-Level-Office-Landscape-Re-Mago-1920x1080.jpg" alt="Smart Industry" class="bgimg"/>
+      </div>
+
+      <div class="navbar">
+        <img src="VDM logo.png" alt="VDM logo" class="logo">
+        <div class="nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="team.html">Team & Clients</a>
+          <a href="product.html">Product</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="content">
+        <p class="text active-text">Powering industries with reliable, high-performance technology.</p>
+        <p class="text2">Bringing smart innovation into every home environment.</p>
+          <p class="text3">Empowering Offices with Genuine Tech and Total Care.</p>
+      </div>
+  </div>
+
+
+<div class="choose">
+  <h2>Why VDM Technologies?</h2>
+  <p class="us">Drive Business Growth With Us</p>
+  <div class="choose-container">
+    <div class="left-icons">
+
+      <div class="icon-block" data-aos="zoom-in">
+        <i class="fa-solid fa-house-laptop"></i>
+       <div class="icon-text">
+          <h3>Certified Solutions</h3>
+          <p>We are a trusted distribution partner for globally recognized brands, delivering certified tech products tailored for long-term performance and compatibility.</p>
+        </div>
+      </div>
+
+      <div class="icon-block" data-aos="zoom-in">
+         <i class="fa-solid fa-gears"></i>
+       <div class="icon-text">
+          <h3>Precision Components</h3>
+          <p>Our inventory includes only original, high-quality spare parts and equipment, ensuring reliability and efficiency for all your technical needs.</p>
+        </div>
+      </div>
+    </div>
+
+    <img src="why us.jpg" alt="choose" class="why">
+
+    <div class="right-icons">
+      <div class="icon-block" data-aos="zoom-in">
+          <i class="fa-solid fa-clock"></i>
+        <div class="icon-text">
+          <h3>Continuous Support</h3>
+          <p>Our expert technical team is available 24/7 to keep your operations running smoothly, minimizing downtime and maximizing productivity.</p>
+        </div>
+      </div>
+
+      <div class="icon-block" data-aos="zoom-in">
+             <i class="fa-solid fa-rocket"></i>
+           <div class="icon-text">
+             <h3>Evolving Innovation</h3>
+             <p>We constantly update our product lineup with next-generation technologies—empowering you with solutions that anticipate the future.</p>
+           </div>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+  
+<div class="message">
+    <img src="contact.jpg" alt="contact" class="contact">
+  <div class="overlay">
+    <div class="split">
+      <div class="content-block">
+            <span class="name">Let’s Build Something Great Together</span>
+            <p class="tagline">VDM Technologies: Where Office Equipment Meets Expert Guidance.</p>
+
+        <div class="icon2">
+           <div class="urgent" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+             <i class="fa-solid fa-arrow-rotate-left"></i>
+             <p class="text-urgent">Replay Within 24 hours</p>
+           </div>
+           <div class="urgent" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
+             <i class="fa-solid fa-phone"></i>
+             <p class="text-urgent">24 Hrs telephone support</p>
+           </div>
+        </div>
+            <p class="para">VDM Technologies is a leading supplier of office equipment and authorized partner for top
+              <br> international brands like Samsung, Toshiba, Hitachi, and Lenovo.<br>
+               Since 2008, we have delivered genuine products, spare parts, 
+               and reliable services<br>to government bodies, corporates, and educational institutions across India.
+            </p>
+      </div>
+
+        <form class="form" data-aos="fade-up" data-aos-delay="300" onsubmit="handleSubmit(event)">
+          <div class="form-content">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Message"></textarea>
+          </div>
+            <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+    <div class="partner">
+        <div class="our" data-aos="fade-down">Our Valued Clients</div>
+            <p class="tagline2">Our client base continues to grow with loyalty and satisfaction.</p>
+
+          <div class="slider-content">
+            <button class="arrow-left" onclick="prevSlide()"><i class="fa-solid fa-arrow-left"></i></button>
+              
+            <div class="slider-wrapper">
+             <div class="slider" id="slider">
+               <div class="logo-box"><img src="Asian hospital.png" alt="client" class="clients"></div>
+               <div class="logo-box"><img src="bajajallianz-term-insurance.png" alt="client" class="clients"></div>
+               <div class="logo-box"><img src="FDC.png" alt="client" class="clients"></div>
+               <div class="logo-box"><img src="H.jpg" alt="client" class="clients"></div>
+               <div class="logo-box"><img src="LT.jpg" alt="client" class="clients"></div>
+               <div class="logo-box"><img src="Mercedes.jpg" alt="client" class="clients"></div>
+               <div class="logo-box"><img src="pizza-hut.png" alt="client" class="clients"></div>
+               <div class="logo-box"><img src="sterlite.png" alt="client" class="clients"></div>
+               <div class="logo-box"><img src="wipro.jpg" alt="client" class="clients"></div>
+            </div>
+          </div>
+
+            <button class="arrow-right" onclick="nextSlide()"><i class="fa-solid fa-arrow-right"></i></button>
+           </div>
+    </div>
+   
+<div class="footer" data-aos="fade-up" data-aos-delay="300">
+      <div class="footer-left">
+        <img src="VDM logo.png" alt="footerlogo" class="footerlogo" data-aos="zoom-in">
+          <p class="tagline3">VDM Technologies is a trusted supplier of digital office equipment<br>
+            and genuine spare parts, serving government, education, and corporate sectors with<br>
+            a commitment to reliability, innovation, and customer satisfaction.
+          </p>
+      </div>
+
+    <div class="info">
+      <div class="add">
+        <p class="title">Location</p>
+       <div class="line">
+        <i class="fa-solid fa-location-dot icon"></i>
+        <p class="details">
+          Shop No. 201-202,<br>
+          Apna Bazzar Complex,<br>
+          Opp. Yeshodeep Hotel, Seven Hill,
+          Jalna Road.
+        </p>
+       </div>
+    </div>
+
+    <div class="add">
+        <p class="title">Contact Us</p>
+      <div class="line">
+        <i class="fa-solid fa-phone icon"></i>
+       <div>
+        <p class="details"> -  0240-2343982</p>
+        <p class="details"> -  +919423 028 006</p>
+       </div>
+      </div>
+      <div class="line">
+        <i class="fa-regular fa-envelope icon"></i>
+        <p class="details">admin@vdmtechnologies.in </p>
+      </div>
+    </div>
+
+    <div class="add">
+        <p class="title">Links</p>
+      <div class="line">
+        <i class="fa-solid fa-link icon"></i>
+        <div class="details">Designed and Developed by<br>
+        <a href="#" class="xpica">Xpica</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+<p class="copyright">&copy; 2019 VDM - All Rights Reserved</p>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
