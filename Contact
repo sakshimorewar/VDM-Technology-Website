@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VDM contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="VDM logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+<div class="main-section2">
+      <div class="navbar">
+          <img src="VDM logo.png" alt="VDM logo" class="logo">
+        <div class="nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="team.html">Team & Clients</a>
+          <a href="product.html">Product</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    <div class="contact-section">
+            <div class="personal" data-aos="fade-down">Contact Us</div>
+            <p class="perinfo">Have questions? We’re here to help.</p>
+     <div class="ppp">
+        <div class="perno">
+           <div class="lineper">
+              <i class="fa-solid fa-phone per-icon"></i>
+              <p class="headper">Call us with your questions</p>
+          </div>
+       <div class="lineper">
+       <div>
+          <p class="detailss">- 0240-2343982</p>
+          <p class="detailss">- +91 9423 028 006</p>
+        </div>
+      </div>
+    </div>
+        
+     <div class="perno">
+       <div class="lineper">
+         <i class="fa-regular fa-envelope per-icon"></i>
+         <p class="headper">Email us for a free quote</p>
+       </div>
+       <div class="lineper">
+         <p class="detailss">admin@vdmtechnologies.in</p>
+       </div>
+     </div>
+     
+     <div class="perno">
+       <div class="lineper">
+         <i class="fa-solid fa-location-dot per-icon"></i>
+         <p class="headper">Visit our office</p>
+       </div>
+       <div class="lineper">
+         <p class="detailss">
+           Shop No. 201-202,<br>
+           Apna Bazzar Complex,<br>
+           Opp. Yeshodeep Hotel, Seven Hill,<br>
+           Jalna Road.
+         </p>
+       </div>
+     </div>
+    </div>
+  
+  <div class="formmap">
+    <form class="form2" data-aos="fade-down" onsubmit="handleSubmit(event)">
+       <div class="formcont">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="number" placeholder="Phone" required>
+            <textarea placeholder="Message"></textarea>
+        </div>
+            <button type="submit">Send Message</button>
+      </form>
+    <div class="map-section" data-aos="fade-down">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.1836711760284!2d75.3533461749989!3d19.874464781501523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdba291caf2822b%3A0x9a5f7c1394b2a2d0!2sSeven%20Hills%20Diagnostic%20Center!5e0!3m2!1sen!2sin!4v1748194080755!5m2!1sen!2sin" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</div>
+
+<!--footer-->
+<div class="footer" data-aos="fade-up" data-aos-delay="300">
+      <div class="footer-left">
+        <img src="VDM logo.png" alt="footerlogo" class="footerlogo" data-aos="zoom-in">
+          <p class="tagline3">VDM Technologies is a trusted supplier of digital office equipment<br>
+            and genuine spare parts, serving government, education, and corporate sectors with<br>
+            a commitment to reliability, innovation, and customer satisfaction.
+          </p>
+      </div>
+
+    <div class="info">
+      <div class="add">
+        <p class="title">Location</p>
+       <div class="line">
+        <i class="fa-solid fa-location-dot icon"></i>
+        <p class="details">
+          Shop No. 201-202,<br>
+          Apna Bazzar Complex,<br>
+          Opp. Yeshodeep Hotel, Seven Hill,
+          Jalna Road.
+        </p>
+       </div>
+    </div>
+
+    <div class="add">
+        <p class="title">Contact Us</p>
+      <div class="line">
+        <i class="fa-solid fa-phone icon"></i>
+       <div>
+        <p class="details"> -  0240-2343982</p>
+        <p class="details"> -  +919423 028 006</p>
+       </div>
+      </div>
+      <div class="line">
+        <i class="fa-regular fa-envelope icon"></i>
+        <p class="details">admin@vdmtechnologies.in </p>
+      </div>
+    </div>
+
+    <div class="add">
+        <p class="title">Links</p>
+      <div class="line">
+        <i class="fa-solid fa-link icon"></i>
+        <div class="details">Designed and Developed by<br>
+        <a href="#" class="xpica">Xpica</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+<p class="copyright">&copy; 2019 VDM - All Rights Reserved</p>
+    
+     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+    <script src="script.js"></script>
+</body>
+</html>
