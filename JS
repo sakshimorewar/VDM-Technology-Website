@@ -1,0 +1,81 @@
+//Home
+const bgImages = document.querySelectorAll(".bgimg");
+
+  const textLines = [
+  document.querySelector(".text"),
+  document.querySelector(".text2"),
+  document.querySelector(".text3")
+];
+
+    let index = 0;
+ 
+function showSlide(i) {
+ 
+  bgImages.forEach(img => img.classList.remove("active"));
+  bgImages[i].classList.add("active");
+
+  textLines.forEach(text => text.classList.remove("active-text"));
+  textLines[i].classList.add("active-text");
+}
+
+showSlide(index);
+setInterval(() => {
+  index = (index + 1) % bgImages.length;
+  showSlide(index);
+}, 3000);
+
+// form submit
+
+  function handleSubmit(event) {
+    event.preventDefault(); // Prevents page reload
+    alert("Your form has been submitted successfully.");
+  }
+//  LOGO SLIDER 
+const slider = document.getElementById('slider');
+const clientsCount = slider.children.length;
+const visibleCount = 3;
+const slideGap = 30;
+const slideWidth = slider.children[0].offsetWidth + slideGap;
+
+let currentIndex = 0;
+const maxIndex = clientsCount - visibleCount;
+
+const firstClone = slider.children[0].cloneNode(true);
+slider.appendChild(firstClone);
+
+function updateSliderPosition() {
+  slider.style.transition = "transform 0.5s ease-in-out";
+  slider.style.transform = `translateX(${-currentIndex * slideWidth}px)`;
+}
+
+function nextSlide() {
+  currentIndex++;
+  updateSliderPosition();
+
+  if (currentIndex > maxIndex) {
+   
+    setTimeout(() => {
+      slider.style.transition = "none";
+      currentIndex = 0;
+      updateSliderPosition();
+    }, 500);
+  }
+}
+
+function prevSlide() {
+  if (currentIndex > 0) {
+    currentIndex--;
+    updateSliderPosition();
+  }
+}
+
+/*choose animation*/
+ 
+
+
+ AOS.init({
+  duration: 1000,
+  easing: 'ease-in-out',
+  once: true
+});
+
