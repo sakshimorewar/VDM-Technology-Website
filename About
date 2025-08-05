@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VDM About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="VDM logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+
+<!--NAVBAR-->
+    <div class="main-section2">
+      <div class="navbar">
+          <img src="VDM logo.png" alt="VDM logo" class="logo">
+        <div class="nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="team.html">Team & Clients</a>
+          <a href="product.html">Product</a>
+          <a href="contact.html">Contact US</a>
+        </div>
+      </div>
+         <div class="about">
+            <img src="About-Us-Pages.webp" alt="aboutimg" class="aboutimg">
+            <div class="overlay2"></div>
+            <div class="about-text" data-aos="fade-up">
+              <h1>VDM Technologies</h1>
+              <p class="tagline4">Driven by passion, delivering with dedication.</p>
+            </div>
+         </div>
+    </div>
+
+<!-- ABOUT SECTION-->
+    <div class="about-section">About Us</div>
+
+    <p class="para2">Established in 2008 as Star Enterprises, VDM Technologies is a trusted supplier of office equipment and IT solutions.<br>
+        We are the authorized channel partner for top brands like Samsung, Toshiba, Hitachi, Lenovo, and more.<br>
+        Over the years, we’ve built a strong presence among government offices, educational institutions, and corporate sectors.<br>
+        Our offerings include laptops, desktops, printers, copiers, projectors, CCTVs, networking devices, and genuine spare parts.<br>
+        We also provide reliable maintenance and support services to ensure smooth operation of your digital infrastructure.<br>
+        Driven by our motto — “Customer-first, technology-driven” — we combine quality products with dedicated service to deliver smart, future-ready solutions.
+    </p>
+    <img src="about.webp" class="aboutimg2" alt="about" data-aos="zoom-out">
+
+    <div class="adva">
+        <div class="item" data-aos="fade-right">
+          <i class="fa-regular fa-circle-check green-icon"></i>
+          <h2>Professional & Dedicated Staff</h2>
+        </div>
+        <div class="item" data-aos="fade-right">
+          <i class="fa-regular fa-circle-check green-icon"></i>
+          <h2>Award-Winning Excellence</h2>
+        </div>
+        <div class="item" data-aos="fade-left">
+          <i class="fa-regular fa-circle-check green-icon"></i>
+          <h2>24/7 Technical Support</h2>
+        </div>
+        <div class="item" data-aos="fade-left">
+          <i class="fa-regular fa-circle-check green-icon"></i>
+          <h2>Transparent & Fair Pricing</h2>
+        </div>
+    </div>
+    
+<!--Awards-->
+<div class="awards-section">
+    <div class="awardname">VDM Technologies Awards</div>
+    <div class="awards-wrapper">
+     <div class="awards-content">
+      <div class="dates">
+        <div class="date-line" data-aos="fade-up">
+          <i class="fa-solid fa-trophy orange-trophy"></i>
+          <p class="date">2011-12</p>
+        </div>
+          <p class="para3">
+            HCL Most Promising New Channel Partner Award 2011-12 Star Enterprises.<br>
+            Innovation is the heartbeat of VDM Technologies.<br>
+            We were the Most Promising New Channel Partner for HCL in 2012.
+          </p>
+      </div>
+        <div class="dates">
+          <div class="date-line" data-aos="fade-up">
+            <i class="fa-solid fa-trophy orange-trophy"></i>
+            <p class="date">2014-15</p>
+          </div>
+            <p class="para3">
+               HITACHI The Excellence Award is presented to M/s Star Enterprises<br>
+               In Recognition of The Most Promising Partner.
+            </p>
+          </div>
+        <div class="dates">
+          <div class="date-line" data-aos="fade-up">
+            <i class="fa-solid fa-trophy orange-trophy"></i>
+            <p class="date">2017-18</p>
+          </div>
+            <p class="para3">
+              Samsung India The Excellence Resional Distriboutor Award Is Presentented to<br> M/s Star Enterprises 2017-18.<br>
+              Our wide spread network has provided manufactureres a bigger customer base.<br>
+              And hence, Samsung India has choose us as their Excellent Regional Distributor in 2018.
+            </p>
+          </div>
+        </div>
+    
+        <img src="ribbon-badge.png" class="badge" data-aos="slide-left" alt="ribbon">
+
+    </div>
+</div>
+
+
+<!--footer-->
+<div class="footer" data-aos="fade-up" data-aos-delay="300">
+      <div class="footer-left">
+        <img src="VDM logo.png" alt="footerlogo" class="footerlogo" data-aos="zoom-in">
+          <p class="tagline3">VDM Technologies is a trusted supplier of digital office equipment<br>
+            and genuine spare parts, serving government, education, and corporate sectors with<br>
+            a commitment to reliability, innovation, and customer satisfaction.
+          </p>
+      </div>
+
+    <div class="info">
+      <div class="add">
+        <p class="title">Location</p>
+       <div class="line">
+        <i class="fa-solid fa-location-dot icon"></i>
+        <p class="details">
+          Shop No. 201-202,<br>
+          Apna Bazzar Complex,<br>
+          Opp. Yeshodeep Hotel, Seven Hill,
+          Jalna Road.
+        </p>
+       </div>
+    </div>
+
+    <div class="add">
+        <p class="title">Contact Us</p>
+      <div class="line">
+        <i class="fa-solid fa-phone icon"></i>
+       <div>
+        <p class="details"> -  0240-2343982</p>
+        <p class="details"> -  +919423 028 006</p>
+       </div>
+      </div>
+      <div class="line">
+        <i class="fa-regular fa-envelope icon"></i>
+        <p class="details">admin@vdmtechnologies.in </p>
+      </div>
+    </div>
+
+    <div class="add">
+        <p class="title">Links</p>
+      <div class="line">
+        <i class="fa-solid fa-link icon"></i>
+        <div class="details">Designed and Developed by<br>
+        <a href="#" class="xpica">Xpica</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+<p class="copyright">&copy; 2019 VDM - All Rights Reserved</p>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+    <script src="script.js"></script>
+</body>
+</html>
