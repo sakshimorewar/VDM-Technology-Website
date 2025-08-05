@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VDM Product</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="VDM logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <div class="main-section2">
+      <div class="navbar">
+          <img src="VDM logo.png" alt="VDM logo" class="logo">
+        <div class="nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="team.html">Team & Clients</a>
+          <a href="product.html">Product</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="product-section">
+      <div class="product">
+        <img src="product 4.jpg" alt="proimg" class="proimg" data-aos="fade-down">
+        <div class="overlay4"></div>
+        <p class="proname" data-aos="fade-up" data-aos-delay="300">Discover Innovative Products</p>
+        <p class="protag" data-aos="fade-up" data-aos-delay="300">Select Your Device</p>
+      </div>
+    </div>
+</div>
+       <div class="different">
+              <p class="proname2">Explore Our Trusted Brands</p>
+            <div class="device-section" data-aos="zoom-out">
+              
+              <div class="device-box">
+                <img src="computer.jpg" alt="device" class="device">
+                <p class="dev">Computer</p>
+              </div>
+              <div class="device-box">
+                <img src="printer.webp" alt="device" class="device">
+                <p class="dev">Printer</p>
+              </div>
+              <div class="device-box">
+                <img src="camera.jpg" alt="device" class="device">
+                <p class="dev">Camera</p>
+              </div>
+              <div class="device-box">
+                <img src="tv.jpg" alt="device" class="device">
+                <p class="dev">Television</p>
+              </div>
+              <div class="device-box">
+                <img src="copier.jpg" alt="device" class="device">
+                <p class="dev">Copiers</p>
+              </div>
+            </div>
+       </div>
+          
+       <div class="different2"> 
+           <div class="row right">
+              <div class="image-containerrr">
+                 <img src="flip8.jpg" alt="flip" class="devicee2">
+               <div class="text-overlayy" data-aos="fade-left" data-aos-delay="300">
+                 <p class="proline">Samsung</p>
+                 <p class="proline1">Commercial display solutions like Samsung Flip and digital signage for smart classrooms and modern offices.</p>
+                </div>
+              </div>
+            </div>
+          <div class="row left">
+            <div class="image-container">
+                 <img src="dell.avif" alt="flip" class="device2">
+               <div class="text-overlayy" data-aos="fade-right" data-aos-delay="500" >
+                 <p class="proline">Dell</p>
+                 <p class="proline1">High-performance laptops, desktops, and servers for enterprise and educational environments.</p>
+               </div>
+            </div>
+          </div>
+          <div class="row right">
+            <div class="image-container">
+                <img src="hitachi9.jpg" alt="flip" class="device2">
+               <div class="text-overlayy" data-aos="fade-left" data-aos-delay="700">
+                <p class="proline">Hitachi</p>
+                <p class="proline1">Projectors and interactive flat panels designed for collaborative workspaces and institutions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row left">
+            <div class="image-container">
+                 <img src="asus4.jpg" alt="flip" class="device2">
+               <div class="text-overlayy" data-aos="fade-right" data-aos-delay="900">
+                 <p class="proline">Asus</p>
+                 <p class="proline1">Reliable laptops, motherboards, and compact PCs for personal, professional, and gaming needs.</p>
+               </div>
+            </div>
+          </div>
+          <div class="row right">
+            <div class="image-container">
+                <img src="canon cam.jpg" alt="flip" class="device2">
+              <div class="text-overlayy" data-aos="fade-left" data-aos-delay="1000">
+                <p class="proline">Canon</p>
+                <p class="proline1">Multifunctional printers, scanners, and projectors built for office productivity and document management.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row left">
+            <div class="image-container">
+                <img src="acer4.webp" alt="flip" class="device2">
+              <div class="text-overlayy" data-aos="fade-right" data-aos-delay="1200">
+                <p class="proline">Acer</p>
+                <p class="proline1">Affordable computing devices, monitors, and laptops ideal for business and educational sectors.</p>
+              </div>
+            </div>
+          </div>
+       </div>
+
+  <!--footer-->
+<div class="footer" data-aos="fade-up" data-aos-delay="300">
+      <div class="footer-left">
+        <img src="VDM logo.png" alt="footerlogo" class="footerlogo" data-aos="zoom-in">
+          <p class="tagline3">VDM Technologies is a trusted supplier of digital office equipment<br>
+            and genuine spare parts, serving government, education, and corporate sectors with<br>
+            a commitment to reliability, innovation, and customer satisfaction.
+          </p>
+      </div>
+
+    <div class="info">
+      <div class="add">
+        <p class="title">Location</p>
+       <div class="line">
+        <i class="fa-solid fa-location-dot icon"></i>
+        <p class="details">
+          Shop No. 201-202,<br>
+          Apna Bazzar Complex,<br>
+          Opp. Yeshodeep Hotel, Seven Hill,
+          Jalna Road.
+        </p>
+       </div>
+    </div>
+
+    <div class="add">
+        <p class="title">Contact Us</p>
+      <div class="line">
+        <i class="fa-solid fa-phone icon"></i>
+       <div>
+        <p class="details"> -  0240-2343982</p>
+        <p class="details"> -  +919423 028 006</p>
+       </div>
+      </div>
+      <div class="line">
+        <i class="fa-regular fa-envelope icon"></i>
+        <p class="details">admin@vdmtechnologies.in </p>
+      </div>
+    </div>
+
+    <div class="add">
+        <p class="title">Links</p>
+      <div class="line">
+        <i class="fa-solid fa-link icon"></i>
+        <div class="details">Designed and Developed by<br>
+        <a href="#" class="xpica">Xpica</a>
+      </div>
+    </div>
+
+   </div>
+  </div>
+  <p class="copyright">&copy; 2019 VDM - All Rights Reserved</p>
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
